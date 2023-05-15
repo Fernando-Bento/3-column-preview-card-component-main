@@ -1,0 +1,20 @@
+@media screen and (min-width: 950px){
+
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        width: 950px;
+    }
+
+    main > section{
+        padding: 50px;
+    }
+
+    p{
+        font-size: 0.8em;
+        margin-bottom: 80px;
+    }
+}
